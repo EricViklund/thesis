@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis.aux
+The style file: ieeetr.bst
+Database file #1: thesis_bib.bib
+Warning--I didn't find a database entry for "10.1063/1.4866013"
+Warning--I didn't find a database entry for "10.1063/1.4960801"
+Warning--I didn't find a database entry for "10.1063/5.0059464"
+Warning--I didn't find a database entry for "10.1063/5.0063379"
+Warning--I didn't find a database entry for "10.1063/1.4913617"
+Warning--I didn't find a database entry for "10.1063/1.4913247"
+Warning--I didn't find a database entry for "eremeev2023preservation"
+Warning--I didn't find a database entry for "eremeev:srf2019-mop015"
+Warning--I didn't find a database entry for "viklund2024improving"
+Warning--I didn't find a database entry for "Sloof2007"
+Warning--empty journal in boulware2019high
+Warning--empty journal in pudasaini2017post
+Warning--empty journal in pischalnikov2014rf
+You've used 34 entries,
+            1876 wiz_defined-function locations,
+            671 strings with 11138 characters,
+and the built_in function-call counts, 9219 in all, are:
+= -- 831
+> -- 517
+< -- 0
++ -- 186
+- -- 152
+* -- 642
+:= -- 1356
+add.period$ -- 35
+call.type$ -- 34
+change.case$ -- 36
+chr.to.int$ -- 0
+cite$ -- 37
+duplicate$ -- 506
+empty$ -- 787
+format.name$ -- 152
+if$ -- 2226
+int.to.chr$ -- 0
+int.to.str$ -- 34
+missing$ -- 27
+newline$ -- 106
+num.names$ -- 34
+pop$ -- 132
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 364
+stack$ -- 0
+substring$ -- 367
+swap$ -- 225
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 69
+width$ -- 36
+write$ -- 324
+(There were 13 warnings)

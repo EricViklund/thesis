@@ -1,0 +1,6 @@
+[submodule "doc/chapters/mechpol"]
+	path = doc/chapters/mechpol
+	url = https://github.com/EricViklund/mechpol.git
+[submodule "doc/chapters/recoating"]
+	path = doc/chapters/recoating
+	url = https://github.com/EricViklund/recoating.git
