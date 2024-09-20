@@ -1,0 +1,142 @@
+Superconducting radiofrequency (SRF) cavities are an essential component in modern particle accelerators. SRF cavities are designed to transfer RF power to the charged particle beam. Cavities constructed from superconducting materials transfer energy to the beam more efficiently than normal conducting cavities allowing for brighter and higher energy beams. SRF cavities are optimized for high electric fields, called the maximum accelerating gradient($E_{acc}$), and low energy dissipation, indicated by a high cavity quality factor (Q). These two parameters are determined by the inherent properties of the material the cavity is made of as well as the state of the cavity surface. Geometrical defects, impurities, contaminants, and the chemical composition of the cavity surface have a large effect on the performance of the cavity.
+
+
+
+The reserach presented in this thesis improve our understanding of the microstructure of Nb\textsubscript{3}Sn thin films using a multitude of characterization techniques. Using this knowledge I develop new methods of processing Nb\textsubscript{3}Sn thin film cavities to improve their performance such as a new mechanical polishing technique which can reduce the surface roughness of Nb\textsubscript{3}Sn films, and a recoating technique which can heal cracks via a self-healing mechanism.
+
+
+
+
+\section{Introduction to SRF Cavities}
+
+
+SRF cavities are a core component in particle accelerators that transfer the RF energy to the charged particle beam. This is accomplished by synchronizing motion of the particles to the oscillation of the RF field inside the cavity. When RF power is coupled to a cavity via an antenna or waveguide, a standing wave is produced inside the cavity as the electromagnetic fields are transmitted and reflected on the walls of the cavity. This standing wave is confined to a set of specific frequencies, called modes, that are determined by the size and geometry of the cavity. These modes come in two classes, the transverse magnetic field (TM) modes, and the transverse electric field (TE) modes. Most RF cavities used for particle accelerators use the fundamental TM mode of the cavity, the $TM_{010}$ mode, in which the electric field points along the axis of the cavity. The particle bunches are sent through the cavity as the electric field reaches its maximum in the axial direction causing them to accelerate and gain energy.
+
+\begin{figure}[t]
+  
+    \includegraphics[width=\textwidth]{Pillbox.png}
+    \caption{Electromagnetic field distribution of the $TM_{010}$ mode inside an RF cavity at different points in the first half of the RF cycle. Reproduced from \cite{valles2014pushing}.}
+    \label{fig:Pillbox}
+\end{figure}
+
+The amount of energy gained by the particles as they travel through the cavity is equal to $qE_{acc}L$ where $q$ is the particle's charge, $E_{acc}$ is acclerating gradient, the average electric field experienced by the particle as it travels through the cavity, and $L$ is the length of the cavity. For particle accelerators, having a high $E_{acc}$ is essential. This is especially true for linear accelerators where the beam energy achievable for a given length of accelerating structure is directly proportional to the accelerating gradient. A higher gradient allows for higher beam energies to be achieved for lower overall cost. 
+
+For SRF cavities, the accelerating gradient is limited by the superconducting properties of the material. Nb and other SRF material candidates are all type II superconductors which means magnetic field vortices, called fluxons, can penetrate the material when the magnetic field strength exceeds the material's critical value, called $H_{c_1}$. In an oscillating field, the cavity can exist in a pseudo-stable state This causes a dramatic increase in power dissipation and a rapid loss of superconductivity. This loss of superconductivity is known as a quench and is the ultimate limiting factor for the maximum accelerating gradient of an SRF cavity.
+
+RF cavities are also subject to power dissipation. The osscilating electromagneti field in the cavity produces currents on the surface of the cavity which dissipate energy. Because of this dissipation, the field will decay exponentially over time unless there is a constant external power input. The higher the electrical resistance of the cavity's surface, the higher the rate of dissipation. For SRF cavities, the surface resistance is extremely low, around \qty{10}{\nano\ohm}, compared to normal conducting RF cavities which have a surface resistance of around \qty{10}{\milli\ohm}. This lower resistance makes SRF cavities ideally suited for high current, continuous beam accelerators where the resistive losses of normal conducting cavities would quickly cause them to overheat.
+
+The energy dissipation in a cavity is usually reported using a unitless measure known as the quality factor (Q). This quantity is defined as the ratio of the energy stored in the cavity divided by the energy lost during a single oscillation. Therefore, a higher Q indicates a more efficient cavity with less power dissipation. For RF cavities the quality factor is also defined as
+
+\begin{flalign}
+    Q &= \frac{G}{R_s}
+\end{flalign}
+
+In this equation $R_s$ is the surface resistance, and $G$ is the geometric factor which is only dependant on the size and geometry of the cavity. To maximize Q for a given cavity geometry, it is essential to lower the surface resistance.
+
+For SRF cavities, the surface resistance results from two main sources: the BCS resistance, and the residual resistance. The BCS resistance, named after the Bardeen-Cooper-Schrieffer theory of superconductivity, is the intrinsic resistance of the superconducting material caused by excitations of quasi-particles under the influence of the oscillating RF field. This resistance is determined by the superconducting properties of the cavity material and the temperature of the cavity. Any additional resistance not explainable by BCS theory is known as the residual resistance. This type of resistance is caused by defects in the superconducting material such as surface contamination, hydrides percipitates, geometrical defects such as pits or bumps on the surface, and trapped magnetic flux vortices which dissipate energy under an oscillating RF field. To improve cavity quality factor, it is important to understand the sources of residual resistance and develop methods to minimize defects in the cavity.
+
+
+\subsection{Cavity Performance Testing Using Vertical Testing Apparatus}
+
+To measure the quality factor and accelerating of an SRF a vertical testing apparatus is used. This apparatus consists of a liquid helium dewar, an RF power source, and a network analyzer. The cavity is placed in the dewar and cooled, typically to \qty{4}{\kelvin} or \qty{2}{\kelvin}. RF power is fed into the cavity to excite the fundamental mode. To measure the Q and accelerating gradient, the RF power is switched off and the decay curve of the electric field strength in the cavity is measured. From this decay curve the quality factor and accelerating gradient can be calculated.
+
+
+\section{Nb\textsubscript{3}Sn Thin Film SRF Cavities}
+\label{sec:nb3snbackground}
+
+Nb\textsubscript{3}Sn cavities are an active research topic in many laboratories around the world\cite{porter2019progress,posen2017nb3sn,pudasaini2019initial,pudasaini2019growth} with the majority of the focus on using the Sn vapor-diffusion method to deposit the film. This method involves heating up a Nb cavity to high temperatures where Nb\textsubscript{3}Sn is thermodynamically favorable and introducing Sn vapor into the cavity. 
+
+It is essential that the Nb\textsubscript{3}Sn grains are densely nucleated on the Nb substrate. This ensures that the film grows uniformly without the formation of so-called thin regions. These are regions that are covered by large but very thin grains. Since the growth of the Nb\textsubscript{3}Sn is mediated by diffusion of Sn through the grain boundaries, these regions cannot grow and become Sn deficient\cite{pudasaini2019growth,trenikhina2018performance}. Changes to the Nb\textsubscript{3}Sn stoichiometry such as a lower Sn concentration negatively affects the superconducting properties of the material\cite{Godeke_2006} thereby reducing the performance of the cavity\cite{trenikhina2018performance}. It is therefore essential to maintain a proper stoichiometric ratio of Nb and Sn in the near surface layer of the film which interacts with the RF fields inside the cavity.
+
+Better nucleation density leads to a more uniform film thickness without the formation of thin regions and Sn deficient regions\cite{posen2021advances}. Various methods of imrpoving the nucleation density have been studied such as increasing the nucleation temperature, using SnCl\textsubscript{2} to increase the Sn vapor pressure during the nucleation stage, anodizing the Nb substrate to improve nucleation uniformity\cite{pudasaini2017experimental,pudasaini2017surface,posen2021advances} With these improvements the thin regions can be minimized or completely avoided allowing for higher accelerating gradients up to \qty{24}{\mega\volt\per\meter}\cite{posen2021advances}.
+
+
+\subsection{Current state of Nb\textsubscript{3}Sn SRF Research}
+
+Despite improvements to the Sn vapor-diffusion process we are still far from achieveing the high theoretical performance limits of Nb\textsubscript{3}Sn cavities. There are several causes thought to be responsible for this. One such cause is due to the surface roughness of the Nb\textsubscript{3}Sn film. This roughness is caused by the thermal etching and grain facetting at the high coating temperatures used during the Sn vapor-diffusion coating. The high temperatures causes etching at the grain boundaries due to the higher surface energy in these regions caused by the grain misorientation. This leaves behind a groove at the grainboundaries of the film. Additionally, the high temperatures allow for high rates of surface diffusion which cause the Nb\textsubscript{3}Sn grains to become facetted, leaving sharp edges on the surface of the film.
+
+
+\subsection{Effect of Surface Roughness on Nb\textsubscript{3}Sn Cavity Performance}
+
+
+This surface roughness is problematic for the performance of the cavity, since the sharp edges may enhance the magnetic field strength at the surface causing greater energy dissipation and may lead to premature flux penetration. Computer simulations of Nb\textsubscript{3}Sn films show that surface roughness may enhance magnetic fields by a factor of \numrange{1.6}{1.8} in some regions\cite{porter2016surface,lechner2024analysis}. This effect can be seen in figure~\ref{fig:surfaceroughnesseffects} (b), which shows the calculated magnetic field enhancement factor for a real Nb\textsubscript{3}Sn coated surface. The magnetic field enhancement is strongest at the surface peaks. These regions would transition into the normal conducting state at lower magnetic field leading to a degradation in quality factor.
+
+\begin{figure}[h] 
+    \centering
+    \includegraphics[width=0.4\textwidth]{Nb3Sn_Surface_Roughness.png}
+    \caption{(a) Surface topography of a Nb\textsubscript{3}Sn sample coated at \qty{1200}{\celsius} for \qty{3}{\hour}. (b) The magnetic field enhancement factor ($\beta$) calculated based on the surface topography. (c) The reduction factor of the superheating field (SFS). The scale bars indicate \qty{5}{\micro\meter}. Reproduced from \cite{lechner2024analysis}.}
+    \label{fig:surfaceroughnesseffects}
+\end{figure}
+
+Additionally, surface roughness can decrease the energy barrier of flux penetration. The deep grooves in the Nb\textsubscript{3}Sn grain boundaries are especially problematic for flux penetration, as shown in figure~\ref{fig:surfaceroughnesseffects} (c), since the energy cost of transitioning to the normal conducting state is partially eliminated when the flux vortex is situated in the groove. The reduction in the flux vortex penetration energy barrier can be as great as \qty{70}{\percent}\cite{lechner2024analysis} at the grain boundaries. When the magnetic field is strong enough for vortices to penetrate the energy barrier they will fill up the GB forming a flux vortex train. As the magnetic field increases the density of vortices increases until a critical value is reached where the vortices are able to penetrate into the grains. The increasing density of vortices in the GBs is a major contributor to the Q slope measured in Nb\textsubscript{3}Sn cavities\cite{carlson2021analysis}.
+
+\begin{figure}[h] 
+    \centering
+    \includegraphics[width=0.5\textwidth]{Nb3Sn_GB_sim.png}
+    \caption{Reproduced from \cite{carlson2021analysis}.}
+    \label{fig:surfaceroughnesseffects}
+\end{figure}
+
+Different methods of reducing the surface roughness of Nb\textsubscript{3}Sn films have been studied such as modifying the parameters of the Sn vapor-diffusion coating to create thinner films with smaller grains, thus reducing the surface roughness\cite{posen2021advances}, or by applying post-process chemical polishing methods\cite{pudasaini2018studies,pudasaini2017post,hu2019reducing}. However, it is not possible to completely eliminate the surface roughness by modifying the coating parameters and chemical polishing of Nb\textsubscript{3}Sn has proven to be difficult. To eliminate the negative effects of surface roughness, new polishing methods need to be developed.
+
+
+\subsection{Effect of Stoichiometry on Nb\textsubscript{3}Sn Cavity Performance}
+
+
+Another source of concern is Sn deficient regions within the Nb\textsubscript{3}Sn film. Although thin regions can be avoided by improving the Sn nucleation density in the initial stages of the coating, there is still a possibility that Sn deficient form inside the Nb\textsubscript{3}Sn grains due to the low rate of intragranular Sn diffusion. Our current theory on Nb\textsubscript{3}Sn film growth is that the initial nucleation site of the grain becomes Sn deficient due to Sn diffusion into the Nb substrate. This leaves behind a Sn deficient remnant within the grain\cite{lee2018atomic}. These Sn deficient remnants may exist close to the surface where they interact with the RF field leading to reduced cavity performance. To improve Nb\textsubscript{3}Sn cavity performance we need a better understanding of these Sn deficient regions. Particularly, the distribution of Sn deficient regions and their depth within the film.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section{Niobium Electropolishing Using HF Containing Electrolytes}
+
+
+Electropolishing (EP) is the main method used to polish the surface of Nb SRF cavities. EP is neccessary to achieve a smooth surface finish and to remove the damaged layer caused by the shaping and welding of the Nb sheets during cavity manufacturing. A proper EP can reduce the RMS surface roughness of the cavity below \qty{20}{\nano\meter} and is essential for achieving good cavity performance.
+
+EP works by a process of anodic dissolution. The niobium is submerged in an electrolyte and a positive voltage is applied to it causing the surface to oxidize. This niobium oxide is extremely stable and chemically resistant. To dissolve the oxide, HF acid is used, one of the few chemicals that can dissolve niobium oxide. The reaction is balanced with an aluminum counter electrode which reacts via simple hydrolysis. 
+
+\begin{figure}[t]
+    \centering
+    
+    \input{./chapters/overview/figures/EP_diagram}
+    \caption{A schematic of a Nb electropolishing cell.}
+    \label{fig:diagram}
+  \end{figure}
+
+Niobium is part of a group of metals known as valve metals, group IV and V elements on the periodic table that are highly resistant to chemicals. Other metals in this group include Zirconium, Tantalum, and Hafnium. All of these metals are characterized by the formation of a highly stable, barrier type oxide film on the surface under anodic conditions. This stable oxide protects the metal from further oxidation and dissolution. Hydroflouric (HF) acid is one of the few chemicals that can dissolve this stable oxide film, allowing for the electropolishing reaction to proceed. 
+
+The reaction of Nb with the HF electrolyte changes as the applied voltage changes. At low voltages, the Nb is in the active region, which is characterized by a positive correlation between the anodic current and the applied voltage. In this region, the dissolution reaction is limited by the oxidation rate of Nb into its oxide form, which is dependant on the applied voltage. As the voltage increases, the current reaches a maximum point after which the reaction is said to be in the passive region, characterized by an anodic current plateua where the current stays constant at all higher voltages. In this region, the reaction is limited by the rate of oxide dissolution by HF. The dissolution of the oxide occurs without any charge transfer, which means the reaction rate only depends on the concentration of HF in the electrolyte and is independant of the applied voltage\cite{ranjith2018anodic}.
+
+Depending on the applied voltage, different Nb oxides may exist on the surface. The most common oxide is Nb\textsubscript{2}O\textsubscript{5} which is the oxide present on the surface when the Nb is passivated. This oxide can only be dissolved via a chemical reaction with undissociated HF molecules in the electrolyte. The rate of dissolution is determined by the HF concentration in the electrolyte as well as the diffusion rate of HF to the surface of the electrode. This diffusion rate can be increased by mixing the electrolyte reducing the thickness of the HF depletion layer near the electrode\cite{tian2010evaluation}. At lower voltages Nb may be oxidized to NbO instead. This oxide has additional electrochemical pathways for dissolution by reacting with $HF_2^-$ ions which increases the anodic current at low voltages leading to a peak in the current-voltage curve followed by a negative current-voltage relation\cite{ranjith2018anodic}. This negative relation can cause instabilities leading to spontaneous current oscillations which are commonly observed during cavity EP\cite{khun2013smoothening}.
+
+
+
+
+
+
+
+
+
+\subsection{Electrochemical Impedance Spectroscopy}
+
+
+Electrochemical impedance spectroscopy (EIS) is a measurement technique used to extract information about the electrode reaction mechanism. The measurement is performed by applying a small voltage or current perturbation at different frequencies to the electrode and measuring the response. This gives the complex impedance of the electrode as a function of the perturbation frequency. The impedance spectrum must then be interpreted to gain useful information.
+
+There are two main conditions required for EIS measurements to be valid. The first is that the electrode process is stationary, meaning that state of the system stays constant thorughout the duration of the experiment. This does not mean that the system is in thermodynamic equillibrium, since the reaction may progress at a constant rate and still uphold the stationary condition. The second condition is that the electrochemical system must be linear with respect to the applied perturbation. This means that the perturbation must be small enough that the current-voltage relation can be approximated as linear, since electrochemical systems are rarely linear in practice. 
+
+
+
+
+
+

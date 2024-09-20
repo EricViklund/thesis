@@ -1,0 +1,101 @@
+\subsection{The Impedance of a Linearized Dynamical System}
+
+Generally, an electrochemical system such as EP can be described by a state vector $\vec{P}$, which describes the probability of finding the system in any particular state, and a set of non-linear functions $\vec{g}$, which describes the evolution of each degree of freedom in the system over time. This system is controlled by an independant parameter $E$, usually the electric potential applied to the electrode, and has a measure $I$, usually the current passing through the electrode, which is a non-linear function of $E$ and $\vec{P}$.
+
+\begin{flalign}
+    \frac{d\vec{P}}{dt} &= \vec{g}\left(\vec{P},E\right)\\
+    I &= f\left(\vec{P},E\right)
+\end{flalign}
+
+For a system that satisfies the above mentioned stability condition, the non-linear system of equations can be linearized near its stable point using a simple Taylor expansion, written in matrix notation as shown below.
+
+\begin{flalign}
+    \vec{P} &= \vec{P_0} + \delta\vec{P}\\
+    E &= E_0 + \delta E\\
+    I &= I_0 + \delta I\\
+    \frac{d\delta\vec{P}}{dt} &= \mathbf{A}\delta\vec{P} + \mathbf{B}\delta E\\
+    \delta I &= \mathbf{C}\delta\vec{P} + \mathbf{D}\delta E\\
+    \left(\mathbf{A}\right)_{i,j} &\equiv A_{i,j} = \left(\frac{\partial g_i}{\partial P_j}\right)_{E,P_{k\neq j}}\\
+    \left(\mathbf{B}\right)_{i} &\equiv B_i = \left(\frac{\partial g_i}{\partial E}\right)_{\vec{P}}\\
+    \left(\mathbf{C}\right)_{i} &\equiv C_i = \left(\frac{\partial f}{\partial P_i}\right)_{P_{k\neq i}}\\
+    D &= \left(\frac{\partial f}{\partial E}\right)_{\vec{P}}
+\end{flalign}
+
+The impedance of this linearized system can be found using the Laplace transformation.
+
+\begin{flalign}
+    \widetilde{X} &\equiv \mathscr{L}\left(X\right)\\
+    s\delta\widetilde{P} &= \mathbf{A}\delta\widetilde{P} + \mathbf{B}\delta\widetilde{E}\\
+    \delta\widetilde{P} &= \left(s\mathbf{I}-A\right)^{-1}\mathbf{B}\delta\widetilde{E}\\
+    \delta\widetilde{I} &= \mathbf{C}\delta\widetilde{P} + \mathbf{D}\delta\widetilde{E}\\
+    \delta\widetilde{I} &= \mathbf{C}\left(s\mathbf{I}-\mathbf{A}\right)^{-1}\mathbf{B}\delta\widetilde{E} + \mathbf{D}\delta\widetilde{E}\\
+    Z\left(s\right) &\equiv \frac{\delta\widetilde{I}}{\delta\widetilde{E}} = \mathbf{C}\left(s\mathbf{I}-\mathbf{A}\right)^{-1}\mathbf{B} + \mathbf{D}
+\end{flalign}
+
+In the case that the matrix $\mathbf{A}$ is diagonalizable, finding the inverse of $s\mathbf{I}-\mathbf{A}$ is a simple case of matrix diagonalization.
+
+\begin{flalign}
+    \left(s\mathbf{I}-\mathbf{A}\right)^{-1} &= \left(s\mathbf{I}-\mathbf{P\Lambda P^{-1}}\right)^{-1}\\
+    &= \left(\mathbf{P}\left(s\mathbf{I}-\mathbf{\Lambda}\right)\mathbf{P}^{-1}\right)^{-1}\\
+    &= \mathbf{P}\left(s\mathbf{I}-\mathbf{\Lambda}\right)^{-1}\mathbf{P}^{-1}
+\end{flalign}
+
+Pluging this expression into the impedance equation, we can see that the impedance of a system with a diagonalizable connection matrix takes the form of a sum of voigt-like terms, a circuit containing a resistor and capacitor. 
+
+\begin{flalign}
+    Z\left(s\right) &= \mathbf{C}\mathbf{P}\left(s\mathbf{I}-\mathbf{\Lambda}\right)^{-1}\mathbf{P}^{-1}\mathbf{B} + \mathbf{D}\\
+    Z\left(s\right) &= R_s + \sum_{i}\frac{\Omega_i}{s-\lambda_i}\\
+    \Omega_i &= \left(\mathbf{CP}\right)_i * \left(\mathbf{P}^{-1}\mathbf{B}\right)_i\\
+    R_s &= \mathbf{D}
+\end{flalign}
+
+Simply set $\lambda = -\frac{1}{RC}$ and $\Omega = \frac{1}{C}$. We also see that the eigenvalues of the system correspond to the relaxation time of an equivalent circuit with resistance $R$ and capacitance $C$.  However, the similarity to a circuit model is purely mathematical and should not be used to infer any physical meaning. In fact, there are multiple circuit combinations that could, with the correct choice of inductors, capacitors, and resistors, achieve the same impedance characteristics.
+
+From this derivation it is clear that the EIS measurement provides information about the eigenvalues of the underlying system dynamics. If the impedance data can be fit to a model consisting of voigt elements, we can extract the eigenvalues, and thus the relaxation times, of the underlying chemical processes. The magnitudes of the $\Omega_i$s indicate the coupling strength of the processes to the input signal. However, the information that can be gained from EIS is limited. This is because the eigenvalues themselves do not define a unique reaction connection matrix. There are an infinite set of similar matrices that all share the same eigenvalues. Therefore, EIS, on its own, cannot be used to determine the reaction mechanism of an arbitrary electrochemical system. EIS can be used to place limits on a proposed reaction mechanism, or provide information about an already known reaction mechanism.
+
+
+\subsection{Impedance Characteristics of Systems With Non-Diagonalizable Connection Matrices}
+
+In the previous section, I showed that the impedance of a linear system with a diagonalizable connection matrix takes the form of a sum of voigt elements. However, this is not the case in general. If the matrix is not diagonalizable, there will be higher order terms in the impedance. Since the matrix is not diagonalizable, we must instead decompose it into its Jordan canonical form, which is an upper triangular matrix consisting of so-called Jordan blocks along it's diagonal. The Jordan normal form of a matrix and it's pseudo eigen vectors is written like
+
+\begin{flalign}
+    \mathbf{A} &= \mathbf{PJP}^{-1}\\
+    \mathbf{J} &= diag\left(\mathbf{J}_{\lambda_1,n_1},\ldots,\mathbf{J}_{\lambda_r,n_r}\right)\\
+    \mathbf{J}_{\lambda_i,n_i} &= \lambda_i\mathbf{I}+\mathbf{N}_{n_i}
+\end{flalign}
+
+Here $\mathbf{N}_{n_i}$ is the upper shift matrix of dimension $n_i$, a matrix containing all zeros except for ones on the first superdiagonal. The inverse of a Jordan matrix is an upper triangular matrix consisting of the inverses of its Jordan blocks.
+
+\begin{flalign}
+    \mathbf{J}^{-1} &= diag\left(\mathbf{J}_{\lambda_1,n_1}^{-1},\ldots,\mathbf{J}_{\lambda_r,n_r}^{-1}\right)\\
+    \mathbf{J}_{\lambda,n}^{-1} &= \sum_{k=0}^{n-1}\frac{\left(-\mathbf{N}\right)^k}{\lambda^{k+1}}
+\end{flalign}
+
+The impedance contribution from one jordan block of size $n_i$ with eigenvalue $\lambda_i$ is
+
+\begin{flalign}
+    Z_i\left(s\right) &= \mathbf{C}\mathbf{P}\left(s\mathbf{I}-\mathbf{J}_{\lambda_i,n_i}\right)^{-1}\mathbf{P}^{-1}\mathbf{B}\\
+    Z_i\left(s\right) &= \sum_{k=0}^{n_i-1}\mathbf{C}\mathbf{P}\frac{\left(-\mathbf{N}\right)^k}{\left(s-\lambda_i\right)^{k+1}}\mathbf{P}^{-1}\mathbf{B}\\
+    Z_i\left(s\right) &= \sum_{k=0}^{n_i-1}\frac{\Omega_{i,k}}{\left(s-\lambda_i\right)^{k+1}}\\
+    \Omega_{i,k} &= \sum_{j=0}^{n_i-k-1}\left(-1\right)^k\left(\mathbf{CP}\right)_j * \left(\mathbf{P}^{-1}\mathbf{B}\right)_{j+k}
+\end{flalign}
+
+Then the total impedance is then the sum of the impedance contribution from each Jordan block.
+
+\begin{flalign}
+    Z\left(s\right) &= \sum_{i=0}^{r}\sum_{k=0}^{n_i-1}\frac{\Omega_{i,k}}{\left(s-\lambda_i\right)^{k+1}}
+\end{flalign}
+
+\subsection{Underdamped Dynamics, Imaginary Eigenvalues}
+
+
+The previous derivation generalizes to imaginary eigenvalues. For a connection matrix containing only real coefficients, the imaginary eigenvalues must appear in complex conjugate pairs. Additionally, the real part of the eigenvalues must be negative to maintain stability. The impedance of an imaginary eigenvalue pair $\lambda_i = \alpha_i \pm i\beta_i$ is
+
+\begin{flalign}
+    Z_i\left(s\right) &= \frac{\Omega_+}{s-\alpha_i-i\beta_i} + \frac{\Omega_-}{s-\alpha_i+i\beta_i}\\
+    &= \frac{\Omega_+\left(s-\alpha_i+i\beta_i\right) + \Omega_-\left(s-\alpha_i-i\beta_i\right)}{\left(s-\alpha_i-i\beta_i\right)\left(s-\alpha_i+i\beta_i\right)}\\
+    &= \frac{\left(\Omega_++\Omega_-\right)\left(s-\alpha_i\right) + \left(\Omega_+-\Omega_-\right)i\beta_i}{\left(s-\alpha_i\right)^2+\beta_i^2}\\
+    &= \frac{\Omega_{re}\left(s-\alpha_i\right)+\Omega_{im}i\beta_i}{s^2-2s\alpha_i+\alpha_i^2+\beta_i^2}
+\end{flalign}
+
+This impedance response is equivalent to an RLC circuit, a circuit containing a resistor, capacitor, and inductor connected in parallel.

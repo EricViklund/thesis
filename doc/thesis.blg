@@ -1,60 +1,17 @@
-This is BibTeX, Version 0.99d (TeX Live 2024)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: thesis.aux
-The style file: ieeetr.bst
-Database file #1: thesis_bib.bib
-Warning--I didn't find a database entry for "10.1063/1.4866013"
-Warning--I didn't find a database entry for "10.1063/1.4960801"
-Warning--I didn't find a database entry for "10.1063/5.0059464"
-Warning--I didn't find a database entry for "10.1063/5.0063379"
-Warning--I didn't find a database entry for "10.1063/1.4913617"
-Warning--I didn't find a database entry for "10.1063/1.4913247"
-Warning--I didn't find a database entry for "eremeev2023preservation"
-Warning--I didn't find a database entry for "eremeev:srf2019-mop015"
-Warning--I didn't find a database entry for "viklund2024improving"
-Warning--I didn't find a database entry for "Sloof2007"
-Warning--empty journal in boulware2019high
-Warning--empty journal in pudasaini2017post
-Warning--empty journal in pischalnikov2014rf
-You've used 34 entries,
-            1876 wiz_defined-function locations,
-            671 strings with 11138 characters,
-and the built_in function-call counts, 9219 in all, are:
-= -- 831
-> -- 517
-< -- 0
-+ -- 186
-- -- 152
-* -- 642
-:= -- 1356
-add.period$ -- 35
-call.type$ -- 34
-change.case$ -- 36
-chr.to.int$ -- 0
-cite$ -- 37
-duplicate$ -- 506
-empty$ -- 787
-format.name$ -- 152
-if$ -- 2226
-int.to.chr$ -- 0
-int.to.str$ -- 34
-missing$ -- 27
-newline$ -- 106
-num.names$ -- 34
-pop$ -- 132
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 0
-skip$ -- 364
-stack$ -- 0
-substring$ -- 367
-swap$ -- 225
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 3
-while$ -- 69
-width$ -- 36
-write$ -- 324
-(There were 13 warnings)
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'thesis.blg'
+[140] biber-MSWIN64:340> INFO - === 
+[200] Biber.pm:420> INFO - Reading 'thesis.bcf'
+[331] Biber.pm:994> INFO - Found 20 citekeys in bib section 0
+[346] Biber.pm:4463> INFO - Processing section 0
+[359] Biber.pm:4654> INFO - Looking for bibtex file 'thesis_bib.bib' for section 0
+[470] bibtex.pm:1713> INFO - LaTeX decoding ...
+[575] bibtex.pm:1519> INFO - Found BibTeX data source 'thesis_bib.bib'
+[732] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[732] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[732] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[732] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[751] bbl.pm:676> INFO - Writing 'thesis.bbl' with encoding 'UTF-8'
+[770] bbl.pm:779> INFO - Output to thesis.bbl
+[771] Biber.pm:131> WARN - legacy month field 'jun' in entry 'Godeke_2006' is not an integer - this will probably not sort properly.
+[771] Biber.pm:133> INFO - WARNINGS: 1

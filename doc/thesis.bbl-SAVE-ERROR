@@ -1,0 +1,848 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{valles2014pushing}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=7585eafa842014d6d56b30079fe1d7ec}{%
+           family={Valles},
+           familyi={V\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{7585eafa842014d6d56b30079fe1d7ec}
+      \strng{fullhash}{7585eafa842014d6d56b30079fe1d7ec}
+      \strng{fullhashraw}{7585eafa842014d6d56b30079fe1d7ec}
+      \strng{bibnamehash}{7585eafa842014d6d56b30079fe1d7ec}
+      \strng{authorbibnamehash}{7585eafa842014d6d56b30079fe1d7ec}
+      \strng{authornamehash}{7585eafa842014d6d56b30079fe1d7ec}
+      \strng{authorfullhash}{7585eafa842014d6d56b30079fe1d7ec}
+      \strng{authorfullhashraw}{7585eafa842014d6d56b30079fe1d7ec}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Pushing the frontiers of superconducting radio frequency science: from the temperature dependence of the superheating field of niobium to higher-order mode damping in very high quality factor accelerating structures}
+      \field{year}{2014}
+    \endentry
+    \entry{porter2019progress}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=7728cb87346671fdffcbe34af73183df}{%
+           family={Porter},
+           familyi={P\bibinitperiod},
+           given={RD},
+           giveni={R\bibinitperiod}}}%
+        {{hash=fc7503ab250ef7ecd3fa344cacd9b7e5}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=2b1f51dca273ae545d49b2adbc5937b0}{%
+           family={Liepe},
+           familyi={L\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=26a698fcafa3e71b864a082d1d467fd7}{%
+           family={Stilin},
+           familyi={S\bibinitperiod},
+           given={NA},
+           giveni={N\bibinitperiod}}}%
+        {{hash=13ccffa8fb1a9b606fa3ce4e5854867a}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Z},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=484bcb2a4ddf326499b6fd4812d6a9c3}{%
+           family={Tao},
+           familyi={T\bibinitperiod},
+           given={MJ},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{736b7c7de70337a65b3328d05f01fc8e}
+      \strng{fullhash}{13e2845e9510b1cb8acd57e39134bb34}
+      \strng{fullhashraw}{13e2845e9510b1cb8acd57e39134bb34}
+      \strng{bibnamehash}{736b7c7de70337a65b3328d05f01fc8e}
+      \strng{authorbibnamehash}{736b7c7de70337a65b3328d05f01fc8e}
+      \strng{authornamehash}{736b7c7de70337a65b3328d05f01fc8e}
+      \strng{authorfullhash}{13e2845e9510b1cb8acd57e39134bb34}
+      \strng{authorfullhashraw}{13e2845e9510b1cb8acd57e39134bb34}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the NAPAC}
+      \field{title}{Progress in Nb3Sn SRF cavities at cornell university}
+      \field{volume}{19}
+      \field{year}{2019}
+      \field{pages}{37}
+      \range{pages}{1}
+    \endentry
+    \entry{posen2017nb3sn}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=1b330a4716eb106181b3aa53589aaedb}{%
+           family={Posen},
+           familyi={P\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c6aab44123c6d0e78c6185b9c1b1e285}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Daniel\bibnamedelima Leslie},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{517f5ff26d9649b0f6d213becd64d54b}
+      \strng{fullhash}{517f5ff26d9649b0f6d213becd64d54b}
+      \strng{fullhashraw}{517f5ff26d9649b0f6d213becd64d54b}
+      \strng{bibnamehash}{517f5ff26d9649b0f6d213becd64d54b}
+      \strng{authorbibnamehash}{517f5ff26d9649b0f6d213becd64d54b}
+      \strng{authornamehash}{517f5ff26d9649b0f6d213becd64d54b}
+      \strng{authorfullhash}{517f5ff26d9649b0f6d213becd64d54b}
+      \strng{authorfullhashraw}{517f5ff26d9649b0f6d213becd64d54b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Superconductor Science and Technology}
+      \field{number}{3}
+      \field{title}{Nb3Sn superconducting radiofrequency cavities: fabrication, results, properties, and prospects}
+      \field{volume}{30}
+      \field{year}{2017}
+      \field{pages}{033004}
+      \range{pages}{1}
+    \endentry
+    \entry{pudasaini2019initial}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=4a6e3102b50a4b99f00a39a16cdb0666}{%
+           family={Pudasaini},
+           familyi={P\bibinitperiod},
+           given={Uttar},
+           giveni={U\bibinitperiod}}}%
+        {{hash=64cec23fe86957af9f537b1a159c3cea}{%
+           family={Eremeev},
+           familyi={E\bibinitperiod},
+           given={Grigory\bibnamedelima V},
+           giveni={G\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=dca7926f4710c84b9d90e91d55037351}{%
+           family={Reece},
+           familyi={R\bibinitperiod},
+           given={Charles\bibnamedelima E},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=8a15ef314a3ff54f3c09dbf8a5779ee3}{%
+           family={Tuggle},
+           familyi={T\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6258823b0a221a24f9f994d4703afa29}{%
+           family={Kelley},
+           familyi={K\bibinitperiod},
+           given={Michael\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{8ac006f0cfc37a07ff23376ecec89406}
+      \strng{fullhash}{8ed17753a220ac2415caf22b82340084}
+      \strng{fullhashraw}{8ed17753a220ac2415caf22b82340084}
+      \strng{bibnamehash}{8ac006f0cfc37a07ff23376ecec89406}
+      \strng{authorbibnamehash}{8ac006f0cfc37a07ff23376ecec89406}
+      \strng{authornamehash}{8ac006f0cfc37a07ff23376ecec89406}
+      \strng{authorfullhash}{8ed17753a220ac2415caf22b82340084}
+      \strng{authorfullhashraw}{8ed17753a220ac2415caf22b82340084}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Superconductor Science and Technology}
+      \field{number}{4}
+      \field{title}{Initial growth of tin on niobium for vapor diffusion coating of Nb3Sn}
+      \field{volume}{32}
+      \field{year}{2019}
+      \field{pages}{045008}
+      \range{pages}{1}
+    \endentry
+    \entry{pudasaini2019growth}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=4a6e3102b50a4b99f00a39a16cdb0666}{%
+           family={Pudasaini},
+           familyi={P\bibinitperiod},
+           given={Uttar},
+           giveni={U\bibinitperiod}}}%
+        {{hash=64cec23fe86957af9f537b1a159c3cea}{%
+           family={Eremeev},
+           familyi={E\bibinitperiod},
+           given={Grigory\bibnamedelima V},
+           giveni={G\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=9b6374ab74e6fcf84140b3156358363b}{%
+           family={Angle},
+           familyi={A\bibinitperiod},
+           given={Jonathan\bibnamedelima W},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=bc5795b2e2f8092fb1b629f31cc97631}{%
+           family={Tuggle},
+           familyi={T\bibinitperiod},
+           given={Jay},
+           giveni={J\bibinitperiod}}}%
+        {{hash=dca7926f4710c84b9d90e91d55037351}{%
+           family={Reece},
+           familyi={R\bibinitperiod},
+           given={Charles\bibnamedelima E},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=6258823b0a221a24f9f994d4703afa29}{%
+           family={Kelley},
+           familyi={K\bibinitperiod},
+           given={Michael\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {AIP Publishing}%
+      }
+      \strng{namehash}{8ac006f0cfc37a07ff23376ecec89406}
+      \strng{fullhash}{a916c45b4364dc0fd9e396baa35b9f14}
+      \strng{fullhashraw}{a916c45b4364dc0fd9e396baa35b9f14}
+      \strng{bibnamehash}{8ac006f0cfc37a07ff23376ecec89406}
+      \strng{authorbibnamehash}{8ac006f0cfc37a07ff23376ecec89406}
+      \strng{authornamehash}{8ac006f0cfc37a07ff23376ecec89406}
+      \strng{authorfullhash}{a916c45b4364dc0fd9e396baa35b9f14}
+      \strng{authorfullhashraw}{a916c45b4364dc0fd9e396baa35b9f14}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Vacuum Science \& Technology A}
+      \field{number}{5}
+      \field{title}{Growth of Nb3Sn coating in tin vapor-diffusion process}
+      \field{volume}{37}
+      \field{year}{2019}
+    \endentry
+    \entry{trenikhina2018performance}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=01cc79ca0d3afd6d353f65eb0d3e0c4a}{%
+           family={Trenikhina},
+           familyi={T\bibinitperiod},
+           given={Y},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d86856a1ec8885ab20b8aa1ce6ad2d6a}{%
+           family={Posen},
+           familyi={P\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=776bd1a7ba07bb760affc7630d849fb6}{%
+           family={Romanenko},
+           familyi={R\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=290384cd86250fdee4d0d331d8d6ed64}{%
+           family={Sardela},
+           familyi={S\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=eee3075de830121eca56f025e7d6d0e9}{%
+           family={Zuo},
+           familyi={Z\bibinitperiod},
+           given={JM},
+           giveni={J\bibinitperiod}}}%
+        {{hash=368e25190feb94ba5239dbf6b8296787}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={DL},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2b1f51dca273ae545d49b2adbc5937b0}{%
+           family={Liepe},
+           familyi={L\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{bf445f4f6e4fe8bdc0c5ca925cb8dde5}
+      \strng{fullhash}{d6b62000d3f8f025619add0da350b422}
+      \strng{fullhashraw}{d6b62000d3f8f025619add0da350b422}
+      \strng{bibnamehash}{bf445f4f6e4fe8bdc0c5ca925cb8dde5}
+      \strng{authorbibnamehash}{bf445f4f6e4fe8bdc0c5ca925cb8dde5}
+      \strng{authornamehash}{bf445f4f6e4fe8bdc0c5ca925cb8dde5}
+      \strng{authorfullhash}{d6b62000d3f8f025619add0da350b422}
+      \strng{authorfullhashraw}{d6b62000d3f8f025619add0da350b422}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Superconductor Science and Technology}
+      \field{number}{1}
+      \field{title}{Performance-defining properties of Nb3Sn coating in SRF cavities}
+      \field{volume}{31}
+      \field{year}{2018}
+      \field{pages}{015004}
+      \range{pages}{1}
+    \endentry
+    \entry{Godeke_2006}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=1e9e56794e47b0477ce1d348e2ddad33}{%
+           family={Godeke},
+           familyi={G\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{1e9e56794e47b0477ce1d348e2ddad33}
+      \strng{fullhash}{1e9e56794e47b0477ce1d348e2ddad33}
+      \strng{fullhashraw}{1e9e56794e47b0477ce1d348e2ddad33}
+      \strng{bibnamehash}{1e9e56794e47b0477ce1d348e2ddad33}
+      \strng{authorbibnamehash}{1e9e56794e47b0477ce1d348e2ddad33}
+      \strng{authornamehash}{1e9e56794e47b0477ce1d348e2ddad33}
+      \strng{authorfullhash}{1e9e56794e47b0477ce1d348e2ddad33}
+      \strng{authorfullhashraw}{1e9e56794e47b0477ce1d348e2ddad33}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Significant efforts can be found throughout the literature to optimize the current-carrying capacity of Nb3Sn superconducting wires. The achievable transport current density in wires depends on the A15 composition, morphology and strain state. The A15 sections in wires contain, due to compositional inhomogeneities resulting from solid-state diffusion A15 formation reactions, a distribution of superconducting properties. The A15 grain size can be different from wire to wire, and is also not necessarily homogeneous across the A15 regions. Strain is always present in composite wires, and the strain state changes as a result of thermal contraction differences and Lorentz forces in magnet systems. To optimize the transport properties, it is thus required to identify how composition, grain size and strain state influence the superconducting properties. This is not possible accurately in inhomogeneous and spatially complex systems such as wires. This article therefore gives an overview of the available literature on simplified, well-defined (quasi-)homogeneous laboratory samples. After more than 50 years of research on superconductivity in Nb3Sn, a significant amount of results are available, but these are scattered over a multitude of publications. Two reviews exist on the basic properties of A15 materials in general, but no specific review for Nb3Sn is available. This article is intended to provide such an overview. It starts with a basic description of the niobium–tin intermetallic. After that, it maps the influence of Sn content on the electron–phonon interaction strength and on the field–temperature phase boundary. The literature on the influence of Cu, Ti and Ta additions will then be summarized briefly. This is followed by a review of the effects of grain size and strain. The article concludes with a summary of the main results.}
+      \field{journaltitle}{Superconductor Science and Technology}
+      \field{month}{6}
+      \field{number}{8}
+      \field{title}{A review of the properties of Nb3Sn and their variation with A15 composition, morphology and strain state}
+      \field{volume}{19}
+      \field{year}{2006}
+      \field{pages}{R68}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/0953-2048/19/8/R02
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/0953-2048/19/8/R02
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/0953-2048/19/8/R02
+      \endverb
+    \endentry
+    \entry{posen2021advances}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=1b330a4716eb106181b3aa53589aaedb}{%
+           family={Posen},
+           familyi={P\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fc6f57335cc6f61bda6ca67930e2bc72}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jaeyel},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5a6c56c6f3a12faecfcfe17b4349398d}{%
+           family={Seidman},
+           familyi={S\bibinitperiod},
+           given={David\bibnamedelima N},
+           giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=544d2e320b23dabbb2c7d5a09c1221fe}{%
+           family={Romanenko},
+           familyi={R\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=df5840da33276cb294c589bb7f024a2e}{%
+           family={Tennis},
+           familyi={T\bibinitperiod},
+           given={Brad},
+           giveni={B\bibinitperiod}}}%
+        {{hash=6690ec87a058e39d980c424dce80b6fb}{%
+           family={Melnychuk},
+           familyi={M\bibinitperiod},
+           given={OS},
+           giveni={O\bibinitperiod}}}%
+        {{hash=829f8c9efce15a928bd91c08d24fcd10}{%
+           family={Sergatskov},
+           familyi={S\bibinitperiod},
+           given={DA},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{532f27d7c7b3b581110d3cb852ddc44a}
+      \strng{fullhash}{1af4c9e4eeab0a3ed080b7a4aeaf7c73}
+      \strng{fullhashraw}{1af4c9e4eeab0a3ed080b7a4aeaf7c73}
+      \strng{bibnamehash}{532f27d7c7b3b581110d3cb852ddc44a}
+      \strng{authorbibnamehash}{532f27d7c7b3b581110d3cb852ddc44a}
+      \strng{authornamehash}{532f27d7c7b3b581110d3cb852ddc44a}
+      \strng{authorfullhash}{1af4c9e4eeab0a3ed080b7a4aeaf7c73}
+      \strng{authorfullhashraw}{1af4c9e4eeab0a3ed080b7a4aeaf7c73}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Superconductor Science and Technology}
+      \field{number}{2}
+      \field{title}{Advances in Nb3Sn superconducting radiofrequency cavities towards first practical accelerator applications}
+      \field{volume}{34}
+      \field{year}{2021}
+      \field{pages}{025007}
+      \range{pages}{1}
+    \endentry
+    \entry{pudasaini2017experimental}{report}{}{}
+      \name{author}{4}{}{%
+        {{hash=4a6e3102b50a4b99f00a39a16cdb0666}{%
+           family={Pudasaini},
+           familyi={P\bibinitperiod},
+           given={Uttar},
+           giveni={U\bibinitperiod}}}%
+        {{hash=8f6b4b35f29482f53c649f9f7e56dc8a}{%
+           family={Eremeev},
+           familyi={E\bibinitperiod},
+           given={Grigory},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ca387f1c5a0e5d3b94db9d7b8d7f4063}{%
+           family={Reece},
+           familyi={R\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod}}}%
+        {{hash=cd8bd883303205d76601f96b8d3882fc}{%
+           family={Kelley},
+           familyi={K\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Thomas Jefferson National Accelerator Facility (TJNAF), Newport News, VA~…}%
+      }
+      \strng{namehash}{8ac006f0cfc37a07ff23376ecec89406}
+      \strng{fullhash}{0a546e2f75188f5daa6deb9bb388c7f1}
+      \strng{fullhashraw}{0a546e2f75188f5daa6deb9bb388c7f1}
+      \strng{bibnamehash}{8ac006f0cfc37a07ff23376ecec89406}
+      \strng{authorbibnamehash}{8ac006f0cfc37a07ff23376ecec89406}
+      \strng{authornamehash}{8ac006f0cfc37a07ff23376ecec89406}
+      \strng{authorfullhash}{0a546e2f75188f5daa6deb9bb388c7f1}
+      \strng{authorfullhashraw}{0a546e2f75188f5daa6deb9bb388c7f1}
+      \field{extraname}{3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Experimental Study of Nucleation for Nb3Sn Diffusion Coatings on Niobium SRF Cavities}
+      \field{type}{techreport}
+      \field{year}{2017}
+    \endentry
+    \entry{pudasaini2017surface}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=4a6e3102b50a4b99f00a39a16cdb0666}{%
+           family={Pudasaini},
+           familyi={P\bibinitperiod},
+           given={Uttar},
+           giveni={U\bibinitperiod}}}%
+        {{hash=3df14052f0b1984e11736d109e1e022a}{%
+           family={Kelley},
+           familyi={K\bibinitperiod},
+           given={MJ},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3bf1338e322ad98cd8156bf71b7ebc3d}{%
+           family={Eremeev},
+           familyi={E\bibinitperiod},
+           given={GV},
+           giveni={G\bibinitperiod}}}%
+        {{hash=412d2a4276fbb4d149775783d2494a2e}{%
+           family={Reece},
+           familyi={R\bibinitperiod},
+           given={CE},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8a15ef314a3ff54f3c09dbf8a5779ee3}{%
+           family={Tuggle},
+           familyi={T\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ac006f0cfc37a07ff23376ecec89406}
+      \strng{fullhash}{eaff2b498cc6cc1b9a4a32bd2588941e}
+      \strng{fullhashraw}{eaff2b498cc6cc1b9a4a32bd2588941e}
+      \strng{bibnamehash}{8ac006f0cfc37a07ff23376ecec89406}
+      \strng{authorbibnamehash}{8ac006f0cfc37a07ff23376ecec89406}
+      \strng{authornamehash}{8ac006f0cfc37a07ff23376ecec89406}
+      \strng{authorfullhash}{eaff2b498cc6cc1b9a4a32bd2588941e}
+      \strng{authorfullhashraw}{eaff2b498cc6cc1b9a4a32bd2588941e}
+      \field{extraname}{4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. 18th Int. Conf. RF Superconductivity (SRF'17)}
+      \field{title}{Surface studies of Nb3Sn coated samples prepared under different coating conditions}
+      \field{year}{2017}
+      \field{pages}{894\bibrangedash 899}
+      \range{pages}{6}
+    \endentry
+    \entry{porter2016surface}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{4}{}{%
+        {{hash=ac38f04352b706d02f7829d1837dd8af}{%
+           family={Porter},
+           familyi={P\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=c6aab44123c6d0e78c6185b9c1b1e285}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Daniel\bibnamedelima Leslie},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=ca39699cb2d8e3dc2e28c2f92236f10c}{%
+           family={Liepe},
+           familyi={L\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=74f6da11f0c18e3d033b268299b088a2}{%
+           family={Maniscalco},
+           familyi={M\bibinitperiod},
+           given={JT},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6ba8951a2409b568c0639b534cff87c}
+      \strng{fullhash}{f5a9d7e7270bf31b25ef6121cb57d9f9}
+      \strng{fullhashraw}{f5a9d7e7270bf31b25ef6121cb57d9f9}
+      \strng{bibnamehash}{b6ba8951a2409b568c0639b534cff87c}
+      \strng{authorbibnamehash}{b6ba8951a2409b568c0639b534cff87c}
+      \strng{authornamehash}{b6ba8951a2409b568c0639b534cff87c}
+      \strng{authorfullhash}{f5a9d7e7270bf31b25ef6121cb57d9f9}
+      \strng{authorfullhashraw}{f5a9d7e7270bf31b25ef6121cb57d9f9}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proc. of LINAC 2016}
+      \field{title}{Surface roughness effect on the performance of Nb3Sn cavities}
+      \field{year}{2016}
+    \endentry
+    \entry{pudasaini2018studies}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=0c4b80fd44c28887e954f5407c134af0}{%
+           family={Pudasaini},
+           familyi={P\bibinitperiod},
+           given={U},
+           giveni={U\bibinitperiod}}}%
+        {{hash=5e3f3ce75b180f60226b9d4c7293d867}{%
+           family={Eremeev},
+           familyi={E\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+        {{hash=412d2a4276fbb4d149775783d2494a2e}{%
+           family={Reece},
+           familyi={R\bibinitperiod},
+           given={CE},
+           giveni={C\bibinitperiod}}}%
+        {{hash=7d46a2e2c26943395f6100a82d18427c}{%
+           family={Tuggle},
+           familyi={T\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3df14052f0b1984e11736d109e1e022a}{%
+           family={Kelley},
+           familyi={K\bibinitperiod},
+           given={MJ},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{8255b533cd5a459638cb88c46b54cfbf}
+      \strng{fullhash}{4c21120dfe8db73ce0738dc55d965023}
+      \strng{fullhashraw}{4c21120dfe8db73ce0738dc55d965023}
+      \strng{bibnamehash}{8255b533cd5a459638cb88c46b54cfbf}
+      \strng{authorbibnamehash}{8255b533cd5a459638cb88c46b54cfbf}
+      \strng{authornamehash}{8255b533cd5a459638cb88c46b54cfbf}
+      \strng{authorfullhash}{4c21120dfe8db73ce0738dc55d965023}
+      \strng{authorfullhashraw}{4c21120dfe8db73ce0738dc55d965023}
+      \field{extraname}{5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proc. 9th Int. Particle Accelerator Conf.(IPAC'18), Vancouver, Canada}
+      \field{title}{Studies of Electropolishing and Oxypolishing Treated Diffusion Coated Nb3Sn Surfaces}
+      \field{year}{2018}
+      \field{pages}{3954\bibrangedash 3957}
+      \range{pages}{4}
+    \endentry
+    \entry{pudasaini2017post}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=4a6e3102b50a4b99f00a39a16cdb0666}{%
+           family={Pudasaini},
+           familyi={P\bibinitperiod},
+           given={Uttar},
+           giveni={U\bibinitperiod}}}%
+        {{hash=5e3f3ce75b180f60226b9d4c7293d867}{%
+           family={Eremeev},
+           familyi={E\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+        {{hash=dca7926f4710c84b9d90e91d55037351}{%
+           family={Reece},
+           familyi={R\bibinitperiod},
+           given={Charles\bibnamedelima E},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=7d46a2e2c26943395f6100a82d18427c}{%
+           family={Tuggle},
+           familyi={T\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3df14052f0b1984e11736d109e1e022a}{%
+           family={Kelley},
+           familyi={K\bibinitperiod},
+           given={MJ},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Thomas Jefferson National Accelerator Facility, Newport News, VA 23606 USA}%
+      }
+      \strng{namehash}{8ac006f0cfc37a07ff23376ecec89406}
+      \strng{fullhash}{96da4aa45a1e34fa9ffb7f3e64e06144}
+      \strng{fullhashraw}{96da4aa45a1e34fa9ffb7f3e64e06144}
+      \strng{bibnamehash}{8ac006f0cfc37a07ff23376ecec89406}
+      \strng{authorbibnamehash}{8ac006f0cfc37a07ff23376ecec89406}
+      \strng{authornamehash}{8ac006f0cfc37a07ff23376ecec89406}
+      \strng{authorfullhash}{96da4aa45a1e34fa9ffb7f3e64e06144}
+      \strng{authorfullhashraw}{96da4aa45a1e34fa9ffb7f3e64e06144}
+      \field{extraname}{6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Post-Processing of Nb3Sn Coated Niobium}
+      \field{year}{2017}
+    \endentry
+    \entry{hu2019reducing}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=fc7503ab250ef7ecd3fa344cacd9b7e5}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{fc7503ab250ef7ecd3fa344cacd9b7e5}
+      \strng{fullhash}{fc7503ab250ef7ecd3fa344cacd9b7e5}
+      \strng{fullhashraw}{fc7503ab250ef7ecd3fa344cacd9b7e5}
+      \strng{bibnamehash}{fc7503ab250ef7ecd3fa344cacd9b7e5}
+      \strng{authorbibnamehash}{fc7503ab250ef7ecd3fa344cacd9b7e5}
+      \strng{authornamehash}{fc7503ab250ef7ecd3fa344cacd9b7e5}
+      \strng{authorfullhash}{fc7503ab250ef7ecd3fa344cacd9b7e5}
+      \strng{authorfullhashraw}{fc7503ab250ef7ecd3fa344cacd9b7e5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Conference on RF Superconductivity}
+      \field{title}{Reducing surface roughness of Nb3Sn through chemical polishing treatments}
+      \field{year}{2019}
+    \endentry
+    \entry{lee2018atomic}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=fc6f57335cc6f61bda6ca67930e2bc72}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jaeyel},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1b330a4716eb106181b3aa53589aaedb}{%
+           family={Posen},
+           familyi={P\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod}}}%
+        {{hash=7b36ebbd4c27bebf5bd0ebc2a79fce81}{%
+           family={Mao},
+           familyi={M\bibinitperiod},
+           given={Zugang},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=c067dc0cc02580e05d1ff91d1e9e29ee}{%
+           family={Trenikhina},
+           familyi={T\bibinitperiod},
+           given={Yulia},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=2f508b5eabb16e0353ed439ce63b7ea9}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+        {{hash=243e091898dc08d5b00fefd208ff568a}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Daniel\bibnamedelima L},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=ca39699cb2d8e3dc2e28c2f92236f10c}{%
+           family={Liepe},
+           familyi={L\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5a6c56c6f3a12faecfcfe17b4349398d}{%
+           family={Seidman},
+           familyi={S\bibinitperiod},
+           given={David\bibnamedelima N},
+           giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{f005d0de56968e1e6f6ed14d0c63858a}
+      \strng{fullhash}{2c9f729f4c79476f924adcc81f740c52}
+      \strng{fullhashraw}{2c9f729f4c79476f924adcc81f740c52}
+      \strng{bibnamehash}{f005d0de56968e1e6f6ed14d0c63858a}
+      \strng{authorbibnamehash}{f005d0de56968e1e6f6ed14d0c63858a}
+      \strng{authornamehash}{f005d0de56968e1e6f6ed14d0c63858a}
+      \strng{authorfullhash}{2c9f729f4c79476f924adcc81f740c52}
+      \strng{authorfullhashraw}{2c9f729f4c79476f924adcc81f740c52}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Superconductor Science and Technology}
+      \field{number}{2}
+      \field{title}{Atomic-scale analyses of Nb3Sn on Nb prepared by vapor diffusion for superconducting radiofrequency cavity applications: a correlative study}
+      \field{volume}{32}
+      \field{year}{2018}
+      \field{pages}{024001}
+      \range{pages}{1}
+    \endentry
+    \entry{ranjith2018anodic}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=8908fd1ea141ac347224a6d4cfcba5a8}{%
+           family={Ranjith},
+           familyi={R\bibinitperiod},
+           given={Punathil\bibnamedelima Meethal},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=3112f3ff190fff385572829e7e62e0b8}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Mandula\bibnamedelima Tirumala},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=4013b34475c5c6472e53d3aa42b13d58}{%
+           family={Sapra},
+           familyi={S\bibinitperiod},
+           given={Sanjeev},
+           giveni={S\bibinitperiod}}}%
+        {{hash=672eeb1f821553a1dbfebeaf04f1018e}{%
+           family={Suni},
+           familyi={S\bibinitperiod},
+           given={Ian\bibnamedelima Ivar},
+           giveni={I\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=b0900b5d29086e69c8f6ccd2ae7105fc}{%
+           family={Srinivasan},
+           familyi={S\bibinitperiod},
+           given={Ramanathan},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{34e381e4a9912f280254d8418f0f6185}
+      \strng{fullhash}{70087d198f7040e78829c27d2022bc86}
+      \strng{fullhashraw}{70087d198f7040e78829c27d2022bc86}
+      \strng{bibnamehash}{34e381e4a9912f280254d8418f0f6185}
+      \strng{authorbibnamehash}{34e381e4a9912f280254d8418f0f6185}
+      \strng{authornamehash}{34e381e4a9912f280254d8418f0f6185}
+      \strng{authorfullhash}{70087d198f7040e78829c27d2022bc86}
+      \strng{authorfullhashraw}{70087d198f7040e78829c27d2022bc86}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of The Electrochemical Society}
+      \field{number}{5}
+      \field{title}{On the anodic dissolution of tantalum and niobium in hydrofluoric acid}
+      \field{volume}{165}
+      \field{year}{2018}
+      \field{pages}{C258}
+      \range{pages}{1}
+    \endentry
+    \entry{tian2010evaluation}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=d58c39b35e0173fd9903edf3f63986cf}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod}}}%
+        {{hash=dca7926f4710c84b9d90e91d55037351}{%
+           family={Reece},
+           familyi={R\bibinitperiod},
+           given={Charles\bibnamedelima E},
+           giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {APS}%
+      }
+      \strng{namehash}{12e6766ca772890240e4961e703e2799}
+      \strng{fullhash}{12e6766ca772890240e4961e703e2799}
+      \strng{fullhashraw}{12e6766ca772890240e4961e703e2799}
+      \strng{bibnamehash}{12e6766ca772890240e4961e703e2799}
+      \strng{authorbibnamehash}{12e6766ca772890240e4961e703e2799}
+      \strng{authornamehash}{12e6766ca772890240e4961e703e2799}
+      \strng{authorfullhash}{12e6766ca772890240e4961e703e2799}
+      \strng{authorfullhashraw}{12e6766ca772890240e4961e703e2799}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review Special Topics—Accelerators and Beams}
+      \field{number}{8}
+      \field{title}{Evaluation of the diffusion coefficient of fluorine during the electropolishing of niobium}
+      \field{volume}{13}
+      \field{year}{2010}
+      \field{pages}{083502}
+      \range{pages}{1}
+    \endentry
+    \entry{khun2013smoothening}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=76d88681e94427017285b1e446c9eaec}{%
+           family={Khun},
+           familyi={K\bibinitperiod},
+           given={NW},
+           giveni={N\bibinitperiod}}}%
+        {{hash=36469f85254a677eebeddc11d4b7572e}{%
+           family={Sumption},
+           familyi={S\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=18b29c80135d11ca00e1bd3cec2702d4}{%
+           family={Frankel},
+           familyi={F\bibinitperiod},
+           given={GS},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{3e5248c169e5177724ba14c09a922208}
+      \strng{fullhash}{3e5248c169e5177724ba14c09a922208}
+      \strng{fullhashraw}{3e5248c169e5177724ba14c09a922208}
+      \strng{bibnamehash}{3e5248c169e5177724ba14c09a922208}
+      \strng{authorbibnamehash}{3e5248c169e5177724ba14c09a922208}
+      \strng{authornamehash}{3e5248c169e5177724ba14c09a922208}
+      \strng{authorfullhash}{3e5248c169e5177724ba14c09a922208}
+      \strng{authorfullhashraw}{3e5248c169e5177724ba14c09a922208}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Electrochemistry}
+      \field{title}{Smoothening of niobium by electropolishing}
+      \field{volume}{43}
+      \field{year}{2013}
+      \field{pages}{829\bibrangedash 838}
+      \range{pages}{10}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -3,8 +3,19 @@
 \usepackage[a4paper,margin=1in]{geometry}
 \usepackage{siunitx}
 \usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{circuitikz}
+\usepackage{setspace}
+\usepackage{mathrsfs}
+\usepackage[sorting=none]{biblatex}
 
-\graphicspath{{chapters/mechpol/src}{chapters/recoating/paper}}
+\usetikzlibrary{patterns}
+
+\doublespacing
+
+\graphicspath{{chapters/mechpol/src}{chapters/recoating/paper}{chapters/overview/figures}}
+\addbibresource{thesis_bib.bib}
+
 
 \begin{document}
     \begin{titlepage}
@@ -75,16 +86,23 @@
 
 
 
+    \chapter{Introduction}
+    \input{chapters/overview/content}
 
+    %\chapter{Mechanical Polishing}
+    %\input{chapters/mechpol/src/content}
 
-    \chapter{Mechanical Polishing}
-    \input{chapters/mechpol/src/content}
+    %\chapter{Recoating}
+    %\input{chapters/recoating/paper/content}
 
-    \chapter{Recoating}
-    \input{chapters/recoating/paper/content}
+    %\chapter{3D FIB}
+    %\input{chapters/3DFIB/paper/content}
 
-    \bibliographystyle{ieeetr}
-    \bibliography{thesis_bib}
+    %\chapter{Nb EIS}
+    %\input{chapters/nbeis/paper/content}
+
+    %\bibstyle{ieeetr}
+    \printbibliography
 
 
 

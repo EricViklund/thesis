@@ -4,3 +4,12 @@
 [submodule "doc/chapters/recoating"]
 	path = doc/chapters/recoating
 	url = https://github.com/EricViklund/recoating.git
+[submodule "doc/chapters/3deds"]
+	path = doc/chapters/3deds
+	url = https://github.com/EricViklund/3deds.git
+[submodule "doc/chapters/3DFIB"]
+	path = doc/chapters/3DFIB
+	url = https://github.com/EricViklund/3deds.git
+[submodule "doc/chapters/nbeis"]
+	path = doc/chapters/nbeis
+	url = https://github.com/EricViklund/nbeis.git
